@@ -1,11 +1,96 @@
-img {
-    width: 200px;
+body {
+    background-color: #03045e;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
 }
 
-table {
+#divLogo {
+    text-align: center;
+    float: right;
+    position: absolute;
+    right: 100px;
+    top: 100px;
+    width: 350px;
+    height: 350px;
+}
+
+#imgLogo {
+    width: 100%;
+}
+
+/* #tableLottery img {
+    width: 100px;
+} */
+
+#tableLottery {
+    /* position: relative;
+    top: 100px; */
     border: 1px solid black;
+    margin-left: 100px;
+    border-collapse: collapse;
+}
+
+thead td {
+    padding: 10px;
+    text-align: center;
+}
+
+.column1 {
+    padding: 10px;
 }
 
 td {
-    border: 1px solid black;
+    border: 1px solid white;
+}
+
+/* #tableLottery img:hover { */
+/*/* td img:hover { */
+/* width: 200px; */
+/* } */
+
+
+
+/* https://www.websitecodetutorials.com/code/photo-galleries/css-popup-image.php */
+#thumbwrap {
+    position: relative;
+    /* margin: 75px auto; */
+    margin-left: 75px;
+    width: 252px;
+    height: 252px;
+    /* width: 450px;
+    height: auto; */
+}
+
+.thumb img {
+    border: 1px solid #000;
+    margin: 3px;
+    float: left;
+    width: 100px;
+}
+
+.thumb span {
+    /* position: absolute; */
+    position: fixed;
+    visibility: hidden;
+    /* width: 400px;
+    height: 1000px;
+    border: 1px solid black; */
+
+}
+
+.thumb:hover,
+.thumb:hover span {
+    visibility: visible;
+    top: 40px;
+    left: 650px;
+    z-index: 1;
+    /* width: 200px; */
+}
+
+.imgLarge {
+    width: 250px;
+}
+
+.imgLarge img {
+    width: 100%;
 }
