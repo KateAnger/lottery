@@ -54,7 +54,7 @@ td {
 #thumbwrap {
     position: relative;
     /* margin: 75px auto; */
-    margin-left: 75px;
+    /* margin-left: 10px; */
     width: 252px;
     height: 252px;
     /* width: 450px;
@@ -82,7 +82,7 @@ td {
 .thumb:hover span {
     visibility: visible;
     top: 40px;
-    left: 650px;
+    left: 675px;
     z-index: 1;
     /* width: 200px; */
 }
@@ -93,4 +93,8 @@ td {
 
 .imgLarge img {
     width: 100%;
+}
+
+.forgot {
+    text-align: center;
 }
