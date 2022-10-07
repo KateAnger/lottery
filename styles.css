@@ -18,6 +18,10 @@ body {
     width: 100%;
 }
 
+p {
+    padding-left: 30px;
+}
+
 /* #tableLottery img {
     width: 100px;
 } */
@@ -37,6 +41,7 @@ thead td {
 
 .column1 {
     padding: 10px;
+    text-align: center;
 }
 
 td {
