@@ -102,4 +102,6 @@ td {
 
 .forgot {
     text-align: center;
+    /* color: red; */
+    padding: 0 auto;
 }
