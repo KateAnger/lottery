@@ -26,7 +26,7 @@ const ticketsData = [
         date: '26/11/2022',
         imageNameMain: '<img src="Screenshot_20221126-211102_The National Lottery.jpg" alt="">',
         imageNameExtra: '',
-        imageNameMainResult: '',
+        imageNameMainResult: '<img src="Screenshot_20221127_095940_The National Lottery.jpg" alt="">',
         imageNameExtraResult: '',
         src: "testJpg.jpg",
         firstElement: '<a class="thumb" href="#">',
