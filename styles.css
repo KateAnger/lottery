@@ -22,6 +22,18 @@ p {
     padding-left: 30px;
 }
 
+#results-table {
+    margin-left: 35px;
+    width: 100%;
+    border-collapse: collapse;
+
+}
+
+#results-table tr {
+    margin: 0 auto;
+    /* width: 100%; */
+}
+
 /* #tableLottery img {
     width: 100px;
 } */
